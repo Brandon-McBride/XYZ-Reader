@@ -4,16 +4,16 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:elevation="8dp"
+        android:theme="@style/Theme.Bacon"
         >
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/theme_primary"
+            android:background="@color/primaryColor"
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlwaysCollapsed"
             >
@@ -25,6 +25,7 @@
                     app:layout_collapseMode="pin"
                     android:layout_marginLeft="@dimen/list_toolbar_side_margin"
                     android:layout_marginRight="@dimen/list_toolbar_side_margin"
+
                     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
                     <ImageView

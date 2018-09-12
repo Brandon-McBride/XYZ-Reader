@@ -14,12 +14,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<resources>
-    <color name="photo_placeholder">#ccc</color>
-
-    <color name="theme_primary">#fd5621</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
-</resources>
+    <resources>
+        <color name="photo_placeholder">#ccc</color>
+        <color name="primaryColor">#fd5621</color>
+        <color name="primaryLightColor">#ff894f</color>
+        <color name="primaryDarkColor">#c21b00</color>
+        <color name="secondaryColor">#00ffbf</color>
+        <color name="secondaryLightColor">#6dfff2</color>
+        <color name="secondaryDarkColor">#00cb8f</color>
+        <color name="primaryTextColor">#000000</color>
+        <color name="secondaryTextColor">#000000</color>
+    </resources>
