@@ -26,13 +26,16 @@
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+
+
     <style name="Text_Article_Body">
-        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:fontFamily">@font/merriweather_sans_light</item>
         <item name="android:textSize">18sp</item>
     </style>
 
     <style name="Text_Article_Title">
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">@font/merriweather_sans_light</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:ellipsize">end</item>
@@ -40,7 +43,7 @@
     </style>
 
     <style name="Text_Article_Subtitle">
-        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:fontFamily">@font/merriweather_sans_light</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
         <item name="android:ellipsize">end</item>
