@@ -6,8 +6,8 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:elevation="8dp"
+        android:layout_height="@dimen/appBarHeight"
+        android:elevation="@dimen/appBarElevation"
         android:theme="@style/Theme.Bacon"
         >
         <android.support.design.widget.CollapsingToolbarLayout
@@ -42,7 +42,6 @@
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:elevation="1dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <android.support.v7.widget.RecyclerView

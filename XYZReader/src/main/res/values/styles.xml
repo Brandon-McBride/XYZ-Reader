@@ -37,7 +37,6 @@
     <style name="Text_Article_Title">
         <item name="android:fontFamily">@font/merriweather_sans_light</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/primaryTextColor</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">4</item>
     </style>
